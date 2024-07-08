@@ -1,29 +1,48 @@
-# portfolio_vue
 
-This template should help get you started developing with Vue 3 in Vite.
+# PortfolioVue
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [О проекте](#о-проекте)
+- [Используемые технологии](#используемые-технологии)
+- [Установка](#установка)
+- [Контакты](#контакты)
 
-## Customize configuration
+## О проекте
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Проект реализован благодаря этому [видео](https://www.youtube.com/watch?v=tYdnepSqtNE). Базовый шаблон на HTML, CSS и JS был создан по шагам, описанным там. Затем я переписал всё под Vue.js и SCSS.
 
-## Project Setup
+Суть проекта проста: портфолио пользователя. На главной странице указываются его проекты и ссылки на них (проекты не мои, а шаблонные с видео). Также есть страница с контактами и со стеком разработчика.
 
-```sh
-npm install
-```
+## Используемые технологии
 
-### Compile and Hot-Reload for Development
+- **HTML:** Для разметки веб-страниц.
+- **SCSS:** Для стилизации проекта с использованием синтаксиса SCSS.
+- **Vue.js:** Основной JavaScript-фреймворк для создания пользовательского интерфейса.
+- **Vue Router:** Для маршрутизации между различными страницами/компонентами.
+- **npm:** Для управления зависимостями и скриптами проекта.
 
-```sh
-npm run dev
-```
+## Установка
 
-### Compile and Minify for Production
+Пошаговые инструкции по установке и настройке моего проекта.
 
-```sh
-npm run build
-```
+1. Клонируйте репозиторий:
+   ```sh
+   git clone https://github.com/MmGrand/PortfolioVue.git
+   ```
+2. Перейдите в папку:
+   ```sh
+   cd PortfolioVue
+   ```
+3. Откройте её в вашем IDE и запустите эту команду:
+    ```sh
+    npm install
+    ```
+4. Запустите:
+    ```sh
+    npm run dev
+    ```
+
+## Контакты
+
+Если у вас есть вопросы или предложения, вы можете связаться со мной по ссылкам в профиле.
