@@ -1,0 +1,64 @@
+/* Header */
+
+.header {
+	padding: 40px 0;
+	min-height: 695px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--dark-bg);
+	background-image: url('../../img/header-bg.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+
+	color: var(--header-text);
+	text-align: center;
+
+	&__wrapper {
+		padding: 0 15px;
+		max-width: 660px;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 1.4;
+
+		& strong {
+			font-size: 60px;
+
+			@include breakpoint(620px) {
+				font-size: 40px;
+			}
+		}
+
+		& em {
+			font-style: normal;
+			color: var(--accent);
+		}
+
+		@include breakpoint(620px) {
+			font-size: 30px;
+		}
+	}
+
+	&__text {
+		margin-bottom: 40px;
+
+		font-size: 18px;
+		line-height: 1.333;
+
+		& p + p {
+			margin-top: 0.5em;
+		}
+	}
+
+	@include breakpoint(620px) {
+		min-height: unset;
+	}
+}
